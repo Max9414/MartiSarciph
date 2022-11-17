@@ -95,3 +95,8 @@ header ul {
     flex-direction: column;
     gap: 0.5em;
 }
+
+.work-school__segments {
+    border: 2px solid var(--color-accent);
+    box-shadow: 2px 4px var(--color-accent);
+}
