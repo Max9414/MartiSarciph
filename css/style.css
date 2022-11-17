@@ -57,8 +57,7 @@ header h1 {
 
 header ul {
     display: flex;
-    justify-content: center;
-    gap: 10%;
+    justify-content: space-around;
 }
 
 
@@ -69,7 +68,7 @@ header ul {
     background-size: cover;
     color: var(--color-accent);
     background-blend-mode:screen;
-    padding: 2em 0;
+    padding: 2em 0 0.5em;
 }
 
 .description_div {
