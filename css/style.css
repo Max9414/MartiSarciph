@@ -77,10 +77,15 @@ header ul {
     display: flex;
     flex-direction: column;
     gap: 0.5em;
+    align-items: center;
 }
 
 .description_div h3 {
     padding-bottom: 0.3em;
+}
+
+.description__segments {
+    max-width: 70ch;
 }
 
 
@@ -108,17 +113,28 @@ header ul {
     padding: 3em 0.3em;
     /* background-image: url(../pictures/blow\ bubble\ 2.jpg); */
     color: var(--color-primary);
-    background: #ada9a9 url(../pictures/blow\ bubble\ 2.jpg) no-repeat scroll;
+    background: #c7bdbd url(../pictures/blow\ bubble\ 2.jpg) no-repeat;
     background-size:cover;
     background-blend-mode:luminosity;
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.together p {
+    max-width: 70ch;
 }
 
 /* footer */
 
 footer {
-    padding: 4em 1em 1em;
+    padding: 3em 1em;
     background-color: var(--color-accent);
     color: var(--color-primary);
+}
+
+/* media query */
+
+@media screen and (min-width:900px) {
+    
 }
