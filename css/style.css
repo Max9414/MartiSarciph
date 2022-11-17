@@ -81,3 +81,17 @@ header ul {
 .description_div h3 {
     padding-bottom: 0.3em;
 }
+
+
+/* work-school segment */
+
+.work-school {
+    color: var(--color-accent);
+    padding: 1.5em 0.5em;
+}
+
+.work-school__div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
