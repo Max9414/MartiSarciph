@@ -1,0 +1,47 @@
+body {
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+:root {
+    --color-primary:#fafafa;
+    --color-accent:#1a1a1a;
+
+    --text-primary:'Hind Madurai', sans-serif;
+    --text-accent:'Lora', serif;
+    --text-secondary:'Roboto Mono', monospace;
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--text-accent);
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    font-family: var(--text-primary);
+}
+
+.description {
+    background: rgb(202, 186, 186) url(../pictures/WhatsApp\ Image\ 2022-11-14\ at\ 15.38.08.jpg) no-repeat fixed;
+    background-size: cover;
+    color: var(--color-accent);
+    background-blend-mode:screen;
+}
+
