@@ -101,3 +101,24 @@ header ul {
     border: 2px solid var(--color-accent);
     box-shadow: 2px 4px var(--color-accent);
 }
+
+/* together segment */
+
+.together {
+    padding: 3em 0.3em;
+    /* background-image: url(../pictures/blow\ bubble\ 2.jpg); */
+    color: var(--color-primary);
+    background: #ada9a9 url(../pictures/blow\ bubble\ 2.jpg) no-repeat scroll;
+    background-size:cover;
+    background-blend-mode:luminosity;
+    display: flex;
+    flex-direction: column;
+}
+
+/* footer */
+
+footer {
+    padding: 4em 1em 1em;
+    background-color: var(--color-accent);
+    color: var(--color-primary);
+}
