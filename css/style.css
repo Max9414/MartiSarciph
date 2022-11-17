@@ -48,8 +48,19 @@ p {
 header {
     background-color: var(--color-accent);
     color: var(--color-primary);
-    padding: 1em 0;
+    padding: 2em 0;
 }
+
+header h1 {
+    padding-bottom: 1em;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
 
 /* description segment */
 
