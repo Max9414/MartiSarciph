@@ -102,7 +102,7 @@ header ul {
     gap: 0.5em;
 }
 
-.work-school__segments {
+.borders {
     border: 2px solid var(--color-accent);
     box-shadow: 2px 4px var(--color-accent);
 }
@@ -136,5 +136,21 @@ footer {
 /* media query */
 
 @media screen and (min-width:900px) {
-    
+    .work-school__div {
+        display: grid;
+        grid-template-columns: 5% 1fr 1fr 1fr 5%;
+        grid-template-areas: 
+        ". first first . ."
+        ". . second second ."
+        ". third third . .";
+    }
+    .work-school__segment1 {
+        grid-area: first;
+    }
+    .work-school__segment2 {
+        grid-area: second;
+    }
+    .work-school__segment3 {
+        grid-area: third;
+    }
 }
