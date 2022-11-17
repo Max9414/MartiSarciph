@@ -12,6 +12,7 @@ body {
 :root {
     --color-primary:#fafafa;
     --color-accent:#1a1a1a;
+    --color-light:#f5eaea;
 
     --text-primary:'Hind Madurai', sans-serif;
     --text-accent:'Lora', serif;
@@ -135,7 +136,7 @@ footer {
 
 /* media query */
 
-@media screen and (min-width:900px) {
+@media only screen and (min-width:900px) {
     .work-school__div {
         display: grid;
         grid-template-columns: 5% 1fr 1fr 1fr 5%;
@@ -152,5 +153,36 @@ footer {
     }
     .work-school__segment3 {
         grid-area: third;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    header {
+        background-color: var(--color-light);
+        color: var(--color-accent);
+    }
+
+    .description {
+        background: #302f2f url(../pictures/sand\ and\ city.jpg) no-repeat fixed;
+        background-size:cover;
+        background-position: bottom;
+        color: var(--color-primary);
+        background-blend-mode:overlay;
+    }
+
+    .work-school {
+        background: var(--color-light);
+    }
+
+    .together {
+        background: #302f2f url(../pictures/seaside.jpg) no-repeat fixed;
+        background-size: cover;
+        background-position: bottom;
+        background-blend-mode:overlay;
+    }
+
+    footer {
+        background-color:var(--color-light);
+        color: var(--color-accent);
     }
 }
