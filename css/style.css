@@ -41,6 +41,7 @@ a {
 
 p {
     font-family: var(--text-primary);
+    max-width: 70ch;
 }
 
 
@@ -62,6 +63,9 @@ header ul {
     justify-content: space-around;
 }
 
+header a:hover, header a:focus, .focused {
+    border-bottom: 1px solid var(--color-primary);
+}
 
 /* description segment */
 
@@ -93,19 +97,22 @@ header ul {
 /* work-school segment */
 
 .work-school {
-    color: var(--color-accent);
+    color: var(--color-primary);
     padding: 1.5em 0.5em;
+    background-color: var(--color-accent);
 }
 
 .work-school__div {
     display: flex;
     flex-direction: column;
-    gap: 0.5em;
+    gap: 1.5em;
+    align-items: center;
 }
 
 .borders {
-    border: 2px solid var(--color-accent);
-    box-shadow: 2px 4px var(--color-accent);
+    border: 2px solid var(--color-primary);
+    box-shadow: 2px 4px var(--color-primary);
+    max-width: 70ch;
 }
 
 /* together segment */
@@ -113,17 +120,14 @@ header ul {
 .together {
     padding: 3em 0.3em;
     /* background-image: url(../pictures/blow\ bubble\ 2.jpg); */
-    color: var(--color-primary);
+    color: var(--color-accent);
     background: #c7bdbd url(../pictures/blow\ bubble\ 2.jpg) no-repeat;
+    background-position: center;
     background-size:cover;
-    background-blend-mode:luminosity;
+    background-blend-mode:difference;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.together p {
-    max-width: 70ch;
 }
 
 /* footer */
@@ -150,6 +154,7 @@ footer {
     }
     .work-school__segment2 {
         grid-area: second;
+        justify-self: end;
     }
     .work-school__segment3 {
         grid-area: third;
@@ -162,6 +167,15 @@ footer {
         color: var(--color-accent);
     }
 
+    header a:hover, header a:focus, .focused {
+        border-bottom: 1px solid var(--color-accent);
+    }
+
+    .borders {
+        border: 2px solid var(--color-accent);
+        box-shadow: 2px 4px var(--color-accent);
+    }
+
     .description {
         background: #302f2f url(../pictures/sand\ and\ city.jpg) no-repeat fixed;
         background-size:cover;
@@ -172,6 +186,7 @@ footer {
 
     .work-school {
         background: var(--color-light);
+        color: var(--color-accent);
     }
 
     .together {
@@ -179,6 +194,7 @@ footer {
         background-size: cover;
         background-position: bottom;
         background-blend-mode:overlay;
+        color: var(--color-primary);
     }
 
     footer {
