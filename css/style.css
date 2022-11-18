@@ -124,7 +124,7 @@ header a:hover, header a:focus, .focused {
     background: #c7bdbd url(../pictures/blow\ bubble\ 2.jpg) no-repeat;
     background-position: center;
     background-size:cover;
-    background-blend-mode:difference;
+    background-blend-mode:overlay;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -136,6 +136,19 @@ footer {
     padding: 3em 1em;
     background-color: var(--color-accent);
     color: var(--color-primary);
+}
+
+/* gallery section */
+
+.showcase {
+    line-height: 0;
+    column-gap: 0;
+    column-count: 2;
+    background-color: var(--color-accent);
+}
+
+.showcase > img {
+    width: 100%;
 }
 
 /* media query */
@@ -158,6 +171,9 @@ footer {
     }
     .work-school__segment3 {
         grid-area: third;
+    }
+    .showcase {
+        column-count: 3;
     }
 }
 
@@ -200,5 +216,9 @@ footer {
     footer {
         background-color:var(--color-light);
         color: var(--color-accent);
+    }
+    
+    .showcase {
+        column-count: 4;
     }
 }
