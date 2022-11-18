@@ -151,6 +151,15 @@ footer {
     width: 100%;
 }
 
+/* prices section */
+
+.offers {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 3em;
+}
+
 /* media query */
 
 @media only screen and (min-width:900px) {
