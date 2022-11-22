@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
-<body >
+<body class="subs_body">
     <header class="dark-header">
         <h1>Sarci Ph</h1>
         <ul>
@@ -17,32 +17,41 @@
             <li><a href="subscription.html" class="focused">Subscription</a></li>
         </ul>
     </header>
-    <div class="box_section">
-        <div class="inputbox">
-            <input type="text" required="required">
-            <span>first name</span>
+    <form action="#">
+        <div class="box_section">
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" required="required">
         </div>
-        <div class="inputbox">
-            <input type="text" required="required">
-            <span>last name</span>
+        <div class="box_section">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname" required>
         </div>
-        <div class="inputbox">
-            <input type="email" required="required">
-            <span>E-mail</span>
+        <div>Company or private:</div>
+        <div class="box_section">
+            <input type="radio" id="company" name="comp_priv">
+            <label for="company">Company</label>
+            <input type="radio" id="private" name="comp_priv" required>
+            <label for="private">Private</label>
         </div>
-        <div class="inputbox">
-            <input type="radio" required="required">
-            <span>Company</span>
+        <div>Service chosen:</div>
+        <div class="box_section">
+            <input type="radio" id="service_a" name="service_choice">
+            <label for="service_a">Service A</label>
+            <input type="radio" id="service_b" name="service_choice">
+            <label for="service_b">Service B</label>
+            <input type="radio" id="service_c" name="service_choice" required>
+            <label for="service_c">Service C</label>
         </div>
-        <div class="inputbox bigger-box">
-            <input type="text" required="required">
-            <span>Service description</span>
+        <div class="box_section">
+            <label for="description">Request description:</label>
+            <br>
+            <input type="text" id="description" name="description" required>
         </div>
-        <!-- <div class="inputbox">
-            <input type="text" required="required">
-            <span>last name</span>
-        </div> -->
-    </div>
+        <div class="box_section">
+            <input type="submit" value="submit">
+            <input type="reset">
+        </div>
+    </form>
     <footer>
         <ul>
             <li><a href="index.html" class="focused">Home</a></li>

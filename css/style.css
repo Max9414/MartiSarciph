@@ -169,7 +169,15 @@ footer {
 
 /* subscription html */
 
-.box_section {
+.subs_body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+}
+
+
+/* .box_section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -234,7 +242,7 @@ footer {
 .bigger-box {
     font-size: 0.8em;
     border-width: 300px;
-}
+} */
 
 /* media query */
 
