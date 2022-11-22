@@ -224,11 +224,16 @@ footer {
     border: 1px solid #00dfc4;
 }
 
-.inputbox:nth-child(2) input:valid,
-.inputbox:nth-child(2) input:focus {
+.inputbox:nth-child(2) input:valid ~ span,
+.inputbox:nth-child(2) input:focus ~ span{
     background: #00dfc4;
     color: #1d2b3a;
     border-radius: 2px;
+}
+
+.bigger-box {
+    font-size: 0.8em;
+    border-width: 300px;
 }
 
 /* media query */
