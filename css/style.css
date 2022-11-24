@@ -147,25 +147,16 @@ footer {
 
 /* gallery section */
 
-/* .showcase {
-    display: flex;
-    flex-wrap: wrap;
+
+.showcase {
+    column-count: 1;
 }
 
 .showcase img {
-    flex-grow: ;
-} */
-
-.showcase {
-    line-height: 0;
-    column-gap: 0;
-    column-count: 2;
-    background-color: var(--color-accent);
+    max-width: 100%;
+    object-fit: cover;
 }
 
-.showcase > img {
-    width: 100%;
-}
 
 /* prices section */
 
@@ -185,78 +176,17 @@ footer {
     justify-content: space-between;
 }
 
-
-/* .box_section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 88vh;
-    flex-direction: column;
-    gap: 30px;
-    background-color: #1d2b3a;
+.input_box {
+    display: grid;
+    grid-template-areas: 
+    "name surname . ."
+    "compchoice . . ."
+    "servicechoice . . ."
+    ". desc desc ."
+    ". reset input ."
+    ;
 }
 
-.inputbox {
-    position:relative;
-    width: 250px;
-}
-
-.inputbox input {
-    width:100%;
-    padding: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.25);
-    background: #1d2b3a;
-    border-radius: 5px;
-    outline: none;
-    color: #fff;
-    font-size: 1em;
-    transition: 0.5s;
-}
-
-.inputbox span {
-    position: absolute;
-    left: 0;
-    padding: 10px;
-    pointer-events: none;
-    font-size: 1em;
-    color: rgba(255, 255, 255, 0.25);
-    text-transform:capitalize;
-    transition: 0.5s;
-}
-
-.inputbox input:valid ~ span,
-.inputbox input:focus ~ span {
-    color: #00dfc4;
-    transform: translateX(10px) translateY(-7px);
-    font-size: 0.65em;
-    padding: 0 10px;
-    background: #1d2b3a;
-    border-right: 1px solid #00dfc4;
-    border-left: 1px solid #00dfc4;
-    letter-spacing: 0.2em;
-}
-
-.inputbox input:valid,
-.inputbox input:focus {
-    border: 1px solid #00dfc4;
-}
-
-.inputbox:nth-child(2) input:valid ~ span,
-.inputbox:nth-child(2) input:focus ~ span{
-    background: #00dfc4;
-    color: #1d2b3a;
-    border-radius: 2px;
-}
-
-.bigger-box {
-    font-size: 0.8em;
-    border-width: 300px;
-} */
-
-.bigger-box {
-    font-size: 0.8em;
-    border-width: 300px;
-} 
 
 /* media query */
 
@@ -278,9 +208,6 @@ footer {
     }
     .work-school__segment3 {
         grid-area: third;
-    }
-    .showcase {
-        column-count: 3;
     }
 }
 
