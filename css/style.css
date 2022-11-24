@@ -150,6 +150,7 @@ footer {
 
 .showcase {
     column-count: 1;
+    background-color: #302f2f;
 }
 
 .showcase img {
@@ -187,6 +188,22 @@ footer {
     ;
 }
 
+#firstname {
+    grid-area: name;
+}
+#lastname {
+    grid-area: surname;
+}
+#comp_priv {
+    grid-area: compchoice;
+}
+#service_choice {
+    grid-area: servicechoice;
+}
+#description {
+    grid-area: desc;
+}
+
 
 /* media query */
 
@@ -208,6 +225,9 @@ footer {
     }
     .work-school__segment3 {
         grid-area: third;
+    }
+    .showcase {
+        column-count: 2;
     }
 }
 
