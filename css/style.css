@@ -12,7 +12,7 @@ body {
 :root {
     --color-primary:#fafafa;
     --color-accent:#1a1a1a;
-    --color-light:#f5eaea;
+    --color-light:#dee6ee;
 
     --text-primary:'Hind Madurai', sans-serif;
     --text-accent:'Lora', serif;
@@ -68,18 +68,28 @@ header a:hover, header a:focus, .focused {
     border-bottom: 1px solid var(--color-primary);
 }
 
-.dark-header {
+.dark-section {
     background-color: var(--color-accent);
     color: var(--color-primary);
+}
+
+.background-pic {
+    background: var(--color-primary) url(../pictures/seaside.jpg) no-repeat fixed;
+    background-size:cover;
+    background-position: center;
+}
+
+.dark-section header a:hover, .dark-section header a:focus, .dark-section .focused {
+    border-bottom: 1px solid var(--color-primary);
 }
 
 /* description segment */
 
 .description {
-    background: rgb(202, 186, 186) url(../pictures/WhatsApp\ Image\ 2022-11-14\ at\ 15.38.08.jpg) no-repeat fixed;
+    background: var(--color-light) url(../pictures/WhatsApp\ Image\ 2022-11-14\ at\ 15.38.08.jpg) no-repeat fixed;
     background-size: cover;
     color: var(--color-accent);
-    background-blend-mode:screen;
+    background-blend-mode:overlay;
     padding: 2em 0 0.5em;
 }
 
@@ -127,10 +137,10 @@ header a:hover, header a:focus, .focused {
     padding: 3em 0.3em;
     /* background-image: url(../pictures/blow\ bubble\ 2.jpg); */
     color: var(--color-accent);
-    background: #c7bdbd url(../pictures/blow\ bubble\ 2.jpg) no-repeat;
+    background: var(--color-light) url(../pictures/blow\ bubble\ 2.jpg) no-repeat;
     background-position: center;
     background-size:cover;
-    background-blend-mode:overlay;
+    background-blend-mode:difference;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -174,35 +184,30 @@ footer {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    justify-content: space-between;
+    justify-content:space-between;
 }
 
 .input_box {
-    display: grid;
-    grid-template-areas: 
-    "name surname . ."
-    "compchoice . . ."
-    "servicechoice . . ."
-    ". desc desc ."
-    ". reset input ."
-    ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5vh;
+    align-items: center;
 }
 
-#firstname {
-    grid-area: name;
-}
-#lastname {
-    grid-area: surname;
-}
-#comp_priv {
-    grid-area: compchoice;
-}
+#comp_priv,
 #service_choice {
-    grid-area: servicechoice;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
 }
-#description {
-    grid-area: desc;
+
+#comp_priv input ~ input,
+#service_choice input ~ input {
+    margin-left: 5ch;
 }
+
 
 
 /* media query */

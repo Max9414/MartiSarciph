@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
-<body class="subs_body">
-    <header class="dark-header">
+<body class="subs_body background-pic" >
+    <header class="dark-section">
         <h1>Sarci Ph</h1>
         <ul>
             <li><a href="index.html" >Home</a></li>
@@ -28,29 +28,31 @@
         </div>
         <div id="comp_priv">
             <p>Company or Private:</p>
-            <input type="radio" id="company" name="comp_priv">
+            <div><input type="radio" id="company" name="comp_priv">
             <label for="company">Company</label>
             <input type="radio" id="private" name="comp_priv" required>
-            <label for="private">Private</label>
+            <label for="private">Private</label></div>
         </div>
         <div id="service_choice">
             <p>Service Choice:</p>
-            <input type="radio" id="service_a" name="service_choice">
+            <div><input type="radio" id="service_a" name="service_choice">
             <label for="service_a">Service A</label>
             <input type="radio" id="service_b" name="service_choice">
             <label for="service_b">Service B</label>
             <input type="radio" id="service_c" name="service_choice" required>
-            <label for="service_c">Service C</label>
+            <label for="service_c">Service C</label></div>
         </div>
         <div id="description">
             <label for="description">Request description:</label>
             <br>
             <textarea name="description" id="" cols="50" rows="10"></textarea>
         </div>
-            <input type="submit" value="submit">
+        <div>
+            <input type="submit" value="Submit">
             <input type="reset">
+        </div>
     </form>
-    <footer>
+    <footer class="dark-section">
         <ul>
             <li><a href="index.html" class="focused">Home</a></li>
             <li><a href="gallery.html">Gallery</a></li>
