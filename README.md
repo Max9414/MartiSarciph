@@ -58,3 +58,6 @@ with a small description and you chose this offer with the full description on t
 This, of course, would be possible only on bigger screens, so I'll think about some nice features to implement in
 smaller screens.
 
+I hope you enjoyed the project and I'm looking forward for any feedback.
+
+Max
