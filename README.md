@@ -18,7 +18,7 @@ the section is then followed by a motivational speech to make the buyer more int
 
 ![ScreenShot](pictures/sarci%20whyme.png)
 
-The gallery section won't have a screenshot, as it would be really hard to show in a single screenshot. It showcases shoots from the photographer as an example of her work.
+The gallery section won't have a screenshot, as it would be really hard to show in a single screenshot. It showcases shoots from the photographer as an example of her work. I tried different ways to show it, especially with grid and flex, but columncount was the best option. As I totally understand grid and flex for more "normal" formats, figuring out a proper way to make it work with pictures was extremely hard and I prefered going on something I was sure about.
 
 The prices section is a simple layout with just a description of the different offers and the price range.
 
