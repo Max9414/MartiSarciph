@@ -9,8 +9,16 @@ Every page in the website presents this intro and this footer, with a variation 
 
 Every footer and header has link to the 4 different pages and will have the currently selected page underlined with the only exception of the gallery page, which doesn't present a footer, as I thought it was breaking the flow of the page.
 
-The main page presents an introduction to the photographer, with a description of early life, studies and focus of the photographer. The section is short and well defined from the rest.
+The main page presents an introduction to the photographer, with a description of early life, studies and focus of the photographer. Both the sections are well divided by colour and defined sections.
 
 ![ScreenShot](pictures/Sarci%20about.png)
+![ScreenShot](pictures/sarci%20about2.png)
+
+the section is then followed by a motivational speech to make the buyer more interested in the photographer and her qualities.
+
+![ScreenShot](pictures/sarci%20whyme.png)
+
+The gallery section won't have a screenshot, as it would be really hard to show in a single screenshot. It showcases shoots from the photographer as an example of her work.
+
 
 
