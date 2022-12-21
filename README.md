@@ -20,5 +20,11 @@ the section is then followed by a motivational speech to make the buyer more int
 
 The gallery section won't have a screenshot, as it would be really hard to show in a single screenshot. It showcases shoots from the photographer as an example of her work.
 
+The prices section is a simple layout with just a description of the different offers and the price range.
 
+![ScreenShot](pictures/sarci%20offers.png)
+
+The subscription page is a simple layout, using multiple flex displays to achieve an easy and fast subscription.
+
+![ScreenShot](pictures/sarci%20subscription.png)
 
