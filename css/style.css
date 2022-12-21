@@ -195,6 +195,12 @@ footer {
     align-items: center;
 }
 
+.input_longlist {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
 #comp_priv,
 #service_choice {
     display: flex;
@@ -203,8 +209,7 @@ footer {
     align-items: center;
 }
 
-#comp_priv input ~ input,
-#service_choice input ~ input {
+#comp_priv input ~ input {
     margin-left: 5ch;
 }
 
@@ -233,6 +238,14 @@ footer {
     }
     .showcase {
         column-count: 2;
+    }
+    #service_choice div ~ div {
+        margin-left: 5ch;
+    }
+    .input_longlist {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 }
 
