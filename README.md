@@ -33,8 +33,16 @@ TESTING
 I've done plenty of testing, asking for help to friends too making the site public for a little while
 Everything seem to be working fine, I had just to change the background for the mobile version somewhere.
 
-Validator testing passed, both of them.
+Validator testing passed:
+Both, css and html passed.
+I tried to copy and paste the result but it was not showing anything
 
-Unfixed bugs
-There is currently a problem with the gallery showcase.
-Even tho I didn't put any margin or padding or border, the images are presenting a division between them in bigger formats.
+W3C CSS Validator results for TextArea (CSS level 3 + SVG)
+Congratulations! No Error Found.
+
+Credits
+
+Most pictures are from my friend, also known as the phogtographer in this website.
+The 2 lion pictures and the eyes are actually taken from google.
+
+I used fonts from google fonts https://fonts.google.com/

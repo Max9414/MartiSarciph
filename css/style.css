@@ -73,9 +73,10 @@ header a:hover, header a:focus, .focused {
     color: var(--color-primary);
 }
 
-.background-pic {
-    background: var(--color-primary) url(../pictures/seaside.jpg) no-repeat fixed;
+.background_pic {
+    background: var(--color-primary) url(../pictures/night_time.jpg) no-repeat fixed;
     background-size:cover;
+    color: var(--color-primary);
     background-position: center;
 }
 
