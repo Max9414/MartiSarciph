@@ -46,3 +46,15 @@ Most pictures are from my friend, also known as the phogtographer in this websit
 The 2 lion pictures and the eyes are actually taken from google.
 
 I used fonts from google fonts https://fonts.google.com/
+
+Future implementations
+
+Future implementations will concern only prices and subscription pages, or atleast this is the only I had
+about it so far. I'd like the prices section to be shorter, having a small description where you could press
+to show the detailed informations.
+
+The subscription page, instead, would show the selected choices, you're a company or you're a private on the left
+with a small description and you chose this offer with the full description on the right.
+This, of course, would be possible only on bigger screens, so I'll think about some nice features to implement in
+smaller screens.
+

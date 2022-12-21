@@ -68,7 +68,7 @@ header a:hover, header a:focus, .focused {
     border-bottom: 1px solid var(--color-primary);
 }
 
-.dark-section {
+.dark_section {
     background-color: var(--color-accent);
     color: var(--color-primary);
 }
@@ -80,14 +80,14 @@ header a:hover, header a:focus, .focused {
     background-position: center;
 }
 
-.dark-section header a:hover, .dark-section header a:focus, .dark-section .focused {
+.dark_section header a:hover, .dark_section header a:focus, .dark_section .focused {
     border-bottom: 1px solid var(--color-primary);
 }
 
 /* description segment */
 
 .description {
-    background: var(--color-light) url(../pictures/WhatsApp\ Image\ 2022-11-14\ at\ 15.38.08.jpg) no-repeat fixed;
+    background: var(--color-light) url(../pictures/whatsapp_pic.jpg) no-repeat fixed;
     background-size: cover;
     color: var(--color-accent);
     background-blend-mode:overlay;
@@ -111,15 +111,15 @@ header a:hover, header a:focus, .focused {
 }
 
 
-/* work-school segment */
+/* work_school segment */
 
-.work-school {
+.work_school {
     color: var(--color-primary);
     padding: 1.5em 0.5em;
     background-color: var(--color-accent);
 }
 
-.work-school__div {
+.work_school__div {
     display: flex;
     flex-direction: column;
     gap: 1.5em;
@@ -138,7 +138,7 @@ header a:hover, header a:focus, .focused {
     padding: 3em 0.3em;
     /* background-image: url(../pictures/blow\ bubble\ 2.jpg); */
     color: var(--color-accent);
-    background: var(--color-light) url(../pictures/blow\ bubble\ 2.jpg) no-repeat;
+    background: var(--color-light) url(../pictures/blow_bubble_2.jpg) no-repeat;
     background-position: center;
     background-size:cover;
     background-blend-mode:difference;
@@ -222,7 +222,7 @@ footer {
 /* media query */
 
 @media only screen and (min-width:900px) {
-    .work-school__div {
+    .work_school__div {
         display: grid;
         grid-template-columns: 5% 1fr 1fr 1fr 5%;
         grid-template-areas: 
@@ -230,14 +230,14 @@ footer {
         ". . second second ."
         ". third third . .";
     }
-    .work-school__segment1 {
+    .work_school__segment1 {
         grid-area: first;
     }
-    .work-school__segment2 {
+    .work_school__segment2 {
         grid-area: second;
         justify-self: end;
     }
-    .work-school__segment3 {
+    .work_school__segment3 {
         grid-area: third;
     }
     .showcase {
@@ -269,14 +269,14 @@ footer {
     }
 
     .description {
-        background: #302f2f url(../pictures/sand\ and\ city.jpg) no-repeat fixed;
+        background: #302f2f url(../pictures/sand_and_city.jpg) no-repeat fixed;
         background-size:cover;
         background-position: bottom;
         color: var(--color-primary);
         background-blend-mode:overlay;
     }
 
-    .work-school {
+    .work_school {
         background: var(--color-light);
         color: var(--color-accent);
     }
