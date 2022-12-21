@@ -28,3 +28,13 @@ The subscription page is a simple layout, using multiple flex displays to achiev
 
 ![ScreenShot](pictures/sarci%20subscription.png)
 
+TESTING
+
+I've done plenty of testing, asking for help to friends too making the site public for a little while
+Everything seem to be working fine, I had just to change the background for the mobile version somewhere.
+
+Validator testing passed, both of them.
+
+Unfixed bugs
+There is currently a problem with the gallery showcase.
+Even tho I didn't put any margin or padding or border, the images are presenting a division between them in bigger formats.

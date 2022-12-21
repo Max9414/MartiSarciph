@@ -161,11 +161,13 @@ footer {
 .showcase {
     column-count: 1;
     background-color: #302f2f;
+    column-gap: 0;
 }
 
 .showcase img {
     max-width: 100%;
     object-fit: cover;
+    display: block;
 }
 
 
