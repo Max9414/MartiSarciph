@@ -9,7 +9,7 @@ Every page in the website presents this intro and this footer, with a variation 
 
 Every footer and header has link to the 4 different pages and will have the currently selected page underlined with the only exception of the gallery page, which doesn't present a footer, as I thought it was breaking the flow of the page.
 
-The main page presents an introduction to the photographer, with a description of early life, studies and focus of the photographer. Both the sections are well divided by colour and defined sections.
+The main page presents an introduction to the photographer, with a description of early life, studies and focus of the photographer. Both the sections are well divided by colour and defined sections. The second section has different layouts, depending on the screen size.
 
 ![ScreenShot](pictures/Sarci%20about.png)
 ![ScreenShot](pictures/sarci%20about2.png)
